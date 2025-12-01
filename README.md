@@ -13,3 +13,8 @@ sipp - bin
 
 -r  calls per second
 -l   total call limit
+
+
+
+# register.xml
+sipp -sf register.xml remote_ip:5060 -r 10 -l 10
